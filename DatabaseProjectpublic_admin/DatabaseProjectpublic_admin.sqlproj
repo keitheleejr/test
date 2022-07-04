@@ -10,7 +10,4 @@
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
   </Target>
-  <ItemGroup>
-    <Folder Include="committee-service-scripts\" />
-  </ItemGroup>
 </Project>
